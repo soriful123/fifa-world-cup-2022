@@ -7,7 +7,7 @@
 .container {
     display: flex;
     justify-content: center;
-    margin-bottom: 130px;
+    margin-bottom: 50px;
 
 }
 
@@ -71,7 +71,7 @@ main {
 .blog-schedule {
     width: 1200px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 
 
 }
@@ -87,6 +87,7 @@ main {
 .blogs {
     box-shadow: 0px 2px 30px grey;
     width: 280px;
+    height: 362px;
     border: 1px solid grey;
     border-radius: 10px;
     overflow: hidden;
@@ -94,7 +95,8 @@ main {
 
 .blog-image img {
     width: 312px;
-    height: 175px;
+    height: 150px;
+    margin-bottom: 15px;
 }
 
 .blog-details {
@@ -112,21 +114,26 @@ main {
     font-size: 16px;
     text-decoration: none;
     color: #161616;
+    font-family: Arial, Helvetica, sans-serif;
     border: 1px solid;
-    padding: 5px 20px;
+    padding: 8px 30px;
     border-radius: 5px;
+
 
 }
 
 .blog-details p {
-    margin-top: 15px;
+    margin-top: 25px;
     color: #161616;
-    font-size: 18px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 
 }
 
 .time {
     margin-right: 30px;
+    font-size: 16px;
 
 
 }
@@ -138,8 +145,7 @@ main {
 }
 
 .side-menu {
-    width: 280px;
-    height: 312px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     margin-right: 24px;
@@ -150,20 +156,30 @@ main {
     border-radius: 10px;
 }
 
-.side-menu div {
+.menu {
+    width: 280px;
     text-decoration: none;
     background-color: rgb(148, 0, 0);
     margin-top: 30px;
     padding: 15px;
-    color: white;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
 }
 
 #mark-menu {
     background-color: white;
-    color: black;
+
 }
 
+#mark-menu a {
+    color: orange;
+}
 
 
 /* footer section css */
@@ -202,8 +218,10 @@ hr {
 .other-info a {
     text-decoration: none;
     margin-right: 40px;
-    color: white;
+    color: #B9B9B9;
+    font-size: 18px;
     font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -217,4 +235,152 @@ hr {
 .social-links {
     margin-right: 50px;
     color: blueviolet;
+}
+
+.social-links:hover {
+    color: blue;
+}
+
+
+/* -----mobive device respoinsive---- */
+
+@media only screen and (max-width:576px) {
+    .container {
+        width: 100%;
+        padding: 20px;
+
+    }
+
+    .top-banner {
+        width: 100%;
+        flex-direction: column;
+        height: 100vh;
+
+    }
+
+    .banner-text {
+        width: 100%;
+        height: 50vh;
+        padding: 20px;
+        margin-top: 50px;
+
+
+    }
+
+    .banner-text h1 {
+        font-size: 35px;
+        text-align: center;
+
+    }
+
+    .banner-text p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .banner-text a {
+        text-align: center;
+
+        margin-left: 100px;
+    }
+
+    .banner-image {
+        width: 80%;
+        margin-top: 10px;
+
+    }
+
+    .banner-image img {
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .blog-schedule {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footbal-blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .blogs {
+        width: 100%;
+        height: 70vh;
+
+    }
+
+    .blog-image img {
+        width: 100%;
+        height: 250px;
+
+    }
+
+    .blog-details a {
+        padding: 7px 30px;
+        border: 2px solid grey;
+        font-size: 25px;
+
+    }
+
+    .blog-details p {
+        font-size: 25px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+
+    .side-menu {
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+
+    .time {
+        font-size: 20px;
+    }
+
+    .side-menu {
+        margin-bottom: 50px;
+    }
+
+    .menu {
+        background-color: white;
+        border: 2px solid red;
+
+    }
+
+    .menu a {
+        color: #161616;
+    }
+
+    .footer {
+        width: 100%;
+        height: 75vh;
+    }
+
+    .goal h1 {
+        padding-top: 24px;
+    }
+
+    .other-info {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .other-info a {
+        margin-bottom: 20px;
+
+    }
+
+    .social-links {
+        font-size: 22px;
+        margin-right: 20px;
+    }
+
 }
