@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +9,7 @@
 
 body {
     width: 100%;
+    font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -40,7 +43,7 @@ header {
 }
 
 .banner-text h1 {
-    font-size: 70px;
+    font-size: 50px;
     color: white;
     margin-bottom: 30px;
 }
@@ -188,12 +191,13 @@ main {
 }
 
 #mark-menu {
-    background-color: white;
+    background-color: silver;
+
 
 }
 
 #mark-menu a {
-    color: orange;
+    color: white;
 }
 
 
@@ -427,7 +431,7 @@ hr {
 
     .banner-text h1 {
         font-size: 40px;
-        margin-top: 200px;
+        margin-top: 100px;
 
     }
 
@@ -522,7 +526,7 @@ hr {
 
     .top-banner {
         width: 90%;
-        height: 45vh;
+        height: 65vh;
     }
 
     .blog-schedule {
@@ -575,28 +579,36 @@ hr {
 @media only screen and (min-width:1201px) and (max-width:1450px) {
     .container {
         width: 100%;
+        overflow: hidden;
         padding: 20px;
     }
 
+
     .top-banner {
         width: 90%;
-        height: 45vh;
+
+
     }
 
     .blog-schedule {
-        margin-left: 70px;
-    }
-
-    .footbal-blogs {
+        padding: 50px;
         grid-template-columns: repeat(3, 1fr);
-        width: 100%;
-        justify-content: center;
-        align-items: center;
+
 
     }
 
-    .banner-text {
+    .banner-text h1 {
+        font-size: 50px;
         margin-top: 100px;
+    }
+
+    .banner-text p {
+        margin-bottom: 30px;
+        line-height: 30px;
+    }
+
+    .banner-image img {
+        width: 100%;
     }
 
     .blogs {
