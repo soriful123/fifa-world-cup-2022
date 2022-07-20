@@ -469,9 +469,6 @@ hr {
 }
 
 
-
-
-
 @media only screen and (min-width:893px) and (max-width:1200px) {
     .container {
         width: 100%;
@@ -492,73 +489,46 @@ hr {
 
     }
 
-    .banner-text {
-        margin-bottom: 50px;
-    }
-
     .banner-text h1 {
         font-size: 40px;
-
+       
     }
 
-    .banner-image {
-        margin-top: 50px;
+
+    .banner-image img {
+        width: 100%;
+    }
+
+
+    .flexible {
         display: flex;
-    }
-
-    .banner-image img {
-        width: 100%;
-    }
-}
-
-
-
-
-@media only screen and (min-width:1201px) and (max-width:1450px) {
-    .container {
-        width: 100%;
-        overflow: hidden;
-        padding: 20px;
-    }
-
-
-    .top-banner {
-        width: 90%;
-
+        flex-direction: column;
 
     }
 
-    .blog-schedule {
-        padding: 50px;
+    .footbal-blogs {
         grid-template-columns: repeat(3, 1fr);
-
-
-    }
-
-    .mathces{
-        grid-template-columns: repeat(3,1fr);
-    }
-    .banner-text h1 {
-        font-size: 50px;
-        margin-top: 100px;
-    }
-
-    .banner-text p {
-        margin-bottom: 30px;
-        line-height: 30px;
-    }
-
-    .banner-image img {
+        justify-content: center;
         width: 100%;
-    }
 
+    }
 
     .side-menu {
-        width: 300px;
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: -100px;
     }
 
     .menu {
-        width: 200px;
+        width: 100%;
+        margin: 20px;
+
     }
+
+
 
 }
