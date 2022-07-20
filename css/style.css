@@ -9,6 +9,7 @@ header{
 }
 .container {
     display: flex;
+    width: 80%;
     justify-content: center;
     margin-bottom: 50px;
 
@@ -194,6 +195,7 @@ main {
     height: 444px;
     background: #161616;
     justify-content: center;
+    align-items: center;
 
 }
 
