@@ -553,6 +553,7 @@ hr {
 
     .top-banner {
         width: 90%;
+        height: 50vh;
         
     }
 
@@ -578,7 +579,6 @@ hr {
     .footbal-blogs {
         grid-template-columns: repeat(3, 1fr);
         justify-content: center;
-
         width: 100%;
 
     }
