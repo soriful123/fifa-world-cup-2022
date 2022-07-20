@@ -198,6 +198,26 @@ main {
 
 #mark-menu a {
     color: white;
+    margin: auto;
+}
+
+.view-all {
+    display: none;
+    width: 30%;
+    margin: 50px auto;
+    padding: 15px 30px;
+    text-align: center;
+    background-color: #bb2020;
+    border-radius: 30px;
+
+}
+
+.view-all a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+
 }
 
 
@@ -379,7 +399,7 @@ hr {
 
     .footer {
         width: 100%;
-        height: 60vh;
+        height: 65vh;
     }
 
     .goal h1 {
@@ -466,6 +486,9 @@ hr {
         width: 100%;
     }
 
+    .view-hide {
+        display: none;
+    }
 
     .blogs img {
         width: 100%;
@@ -510,6 +533,10 @@ hr {
         justify-content: center;
         margin-right: 0px;
 
+    }
+
+    .view-all {
+        display: inline;
     }
 
 
@@ -586,6 +613,7 @@ hr {
 
     .top-banner {
         width: 90%;
+        height: 65vh;
 
 
     }
