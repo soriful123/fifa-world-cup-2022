@@ -355,6 +355,8 @@ hr {
         background-color: white;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 50px;
+        margin-top: -70px;
 
 
     }
@@ -373,7 +375,7 @@ hr {
 
     .footer {
         width: 100%;
-        height: 40vh;
+        height: 60vh;
     }
 
     .goal h1 {
@@ -415,7 +417,7 @@ hr {
     .top-banner {
         flex-direction: row;
         width: 100%;
-        height: 60vh;
+        height: 70vh;
     }
 
     .banner-text {
@@ -519,28 +521,22 @@ hr {
 
 
     .top-banner {
-        width: 85%;
-        height: 50vh;
+        width: 90%;
+        height: 45vh;
     }
 
     .blog-schedule {
         padding: 50px;
         grid-template-columns: repeat(3, 1fr);
 
+
     }
 
-    .banner-image {
-        display: flex;
-    }
 
     .banner-image img {
         width: 100%;
     }
 
-    .blogs {
-        width: 100%;
-        
-    }
 
     .flexible {
         display: flex;
@@ -551,34 +547,72 @@ hr {
     .footbal-blogs {
         grid-template-columns: repeat(3, 1fr);
         justify-content: center;
-        margin-left: 10px;
 
-
+        width: 100%;
 
     }
 
-
-
     .side-menu {
-
         background-color: white;
         align-items: center;
         justify-content: center;
         flex-direction: row;
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
+        margin-top: -100px;
     }
 
     .menu {
-        width: 80%;
+        width: 100%;
         margin: 20px;
 
     }
 
-    
+
 
 }
 
-@media screen {
-    
+@media only screen and (min-width:1201px) and (max-width:1450px) {
+    .container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .top-banner {
+        width: 90%;
+        height: 45vh;
+    }
+
+    .blog-schedule {
+        margin-left: 70px;
+    }
+
+    .footbal-blogs {
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .banner-text {
+        margin-top: 100px;
+    }
+
+    .blogs {
+        width: 290px;
+    }
+
+    .flexible {
+        width: 100%;
+    }
+
+    .side-menu {
+        width: 300px;
+    }
+
+    .menu {
+        width: 200px;
+    }
+
 }
