@@ -482,6 +482,7 @@ hr {
 
     .top-banner {
         width: 90%;
+        height: 65vh;
 
     }
 
@@ -516,6 +517,15 @@ hr {
 
     }
 
+    #mark-menu {
+        border: 1px solid olivedrab;
+        transition: .2s ease-in-out;
+    }
+
+    #mark-menu:hover {
+        background-color: #4D4D4D;
+    }
+
     .side-menu {
         background-color: white;
         align-items: center;
@@ -533,5 +543,69 @@ hr {
     }
 
 
+
+}
+
+
+@media only screen and (min-width:1201px) and (max-width:1450px) {
+    .container {
+        width: 100%;
+        overflow: hidden;
+        padding: 20px;
+    }
+
+
+    .top-banner {
+        width: 90%;
+
+
+
+    }
+
+    .blog-schedule {
+        padding: 50px;
+        grid-template-columns: repeat(3, 1fr);
+
+
+    }
+
+    .banner-text h1 {
+        font-size: 50px;
+        margin-top: 100px;
+    }
+
+    .banner-text p {
+        margin-bottom: 30px;
+        line-height: 30px;
+    }
+
+    .banner-image img {
+        width: 100%;
+    }
+
+    .blogs {
+        width: 290px;
+    }
+
+    .flexible {
+        width: 100%;
+    }
+
+    .side-menu {
+        width: 300px;
+    }
+
+    .menu {
+        width: 200px;
+    }
+
+    #mark-menu {
+        border: 1px solid olivedrab;
+        transition: .2s ease-in-out;
+    }
+
+    #mark-menu:hover {
+        background-color: #4D4D4D;
+    }
 
 }
