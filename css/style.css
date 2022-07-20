@@ -295,13 +295,12 @@ hr {
         width: 100%;
         flex-direction: column;
         align-items: center;
-        /* height: 100vh; */
+       
 
     }
 
     .banner-text {
         width: 100%;
-        /* height: 50vh; */
         padding: 20px;
         margin-top: 50px;
 
