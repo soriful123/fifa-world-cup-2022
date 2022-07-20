@@ -2,14 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
-header{
-   display: flex;
-   justify-content: center;
+
+body {
+    width: 100%;
 }
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
 .container {
     display: flex;
-    width: 80%;
+    /* width: 80%; */
     justify-content: center;
     margin-bottom: 50px;
 
@@ -19,7 +27,7 @@ header{
     display: flex;
     background: #161616;
     border-radius: 30px;
-    width: 1221px;
+    width: 85%;
 
 }
 
@@ -51,6 +59,7 @@ header{
     background: #DD0000;
     border-radius: 5px;
     padding: 10px 30px;
+    font-size: 20px;
 }
 
 .fa-chevron-right {
@@ -249,7 +258,7 @@ hr {
 }
 
 
-/* -----mobive device respoinsive---- */
+/* -----mobile device respoinsive---- */
 
 @media only screen and (max-width:576px) {
     .container {
@@ -287,10 +296,10 @@ hr {
     }
 
     .banner-text a {
-        text-align: center;
-
-        margin-left: 100px;
+        margin: auto;
+        margin-left: 25%;
     }
+
 
     .banner-image {
         width: 80%;
@@ -316,8 +325,7 @@ hr {
 
     .blogs {
         width: 100%;
-        height: 70vh;
-
+        height: 550px;
     }
 
     .blog-image img {
@@ -353,12 +361,6 @@ hr {
 
 
 
-
-    .side-menu {
-        margin-bottom: 50px;
-
-    }
-
     .menu {
         background-color: white;
         border: 2px solid red;
@@ -371,7 +373,7 @@ hr {
 
     .footer {
         width: 100%;
-        height: 75vh;
+        height: 40vh;
     }
 
     .goal h1 {
@@ -394,4 +396,189 @@ hr {
         margin-right: 20px;
     }
 
+}
+
+
+
+
+/* ------tablet device----- */
+
+
+
+@media only screen and (min-width:577px) and (max-width:892px) {
+
+    .container {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .top-banner {
+        flex-direction: row;
+        width: 100%;
+        height: 60vh;
+    }
+
+    .banner-text {
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .banner-text h1 {
+        font-size: 40px;
+        margin-top: 200px;
+
+    }
+
+    .banner-image {
+        display: flex;
+
+    }
+
+    .banner-text a {
+        font-size: 14px;
+
+    }
+
+    .banner-image img {
+        width: 100%;
+
+    }
+
+    .footbal-blogs {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+
+
+    .blog-schedule {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .blogs {
+        width: 100%;
+    }
+
+
+    .blogs img {
+        width: 100%;
+    }
+
+    .side-menu {
+        background-color: white;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .menu {
+        width: 80%;
+        margin: 20px;
+
+    }
+
+
+    .footer {
+        width: 100%;
+
+    }
+
+    .goal h1 {
+        padding-top: 50px;
+    }
+
+    hr {
+        margin-bottom: 20px;
+    }
+
+    .other-info {
+        padding: 50px;
+    }
+
+    .other-info a {
+        width: 80%;
+        font-size: 12px;
+        text-align: center;
+        justify-content: center;
+        margin-right: 0px;
+
+    }
+
+
+}
+
+/*------- desktop view ------- */
+@media only screen and (min-width:893px) and (max-width:1200px) {
+    .container {
+        width: 100%;
+        overflow: hidden;
+        padding: 20px;
+    }
+
+
+    .top-banner {
+        width: 85%;
+        height: 50vh;
+    }
+
+    .blog-schedule {
+        padding: 50px;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .banner-image {
+        display: flex;
+    }
+
+    .banner-image img {
+        width: 100%;
+    }
+
+    .blogs {
+        width: 100%;
+        
+    }
+
+    .flexible {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .footbal-blogs {
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        margin-left: 10px;
+
+
+
+    }
+
+
+
+    .side-menu {
+
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .menu {
+        width: 80%;
+        margin: 20px;
+
+    }
+
+    
+
+}
+
+@media screen {
+    
 }
