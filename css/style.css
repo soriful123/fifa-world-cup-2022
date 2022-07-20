@@ -581,6 +581,9 @@ hr {
         width: 100%;
 
     }
+    .blogs{
+        width: 80%;
+    }
 
     .side-menu {
         background-color: white;
