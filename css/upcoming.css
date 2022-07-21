@@ -21,8 +21,10 @@ body {
 .football {
     position: absolute;
     width: 50px;
-    animation: football 3s ease-in 0.1s 3 alternate;
+    animation: football 3s ease-in 0.1s infinite alternate;
 }
+
+
 
 .top-banner {
     display: flex;
@@ -563,6 +565,30 @@ hr {
 
 }
 
+@keyframes football {
+    0% {
+        left: 100px;
+        top: 0px;
+        width: 100px;
+    }
+
+
+    50% {
+
+        left: 250px;
+        top: 100px;
+        width: 100px;
+    }
+
+
+    100% {
+
+        left: 200px;
+        top: 0px;
+        width: 100px;
+    }
+}
+
 
 @media only screen and (min-width:1201px) and (max-width:1450px) {
     .container {
@@ -625,39 +651,40 @@ hr {
         background-color: #4D4D4D;
     }
 
-}
 
 
+    @keyframes football {
+        0% {
+            left: 100px;
+            top: 0px;
+        }
 
-@keyframes football {
-    0% {
-        left: 100px;
-        top: 0px;
-    }
+        25% {
 
-    25% {
+            left: 175px;
+            top: 80%;
+            width: 100px;
+        }
 
-        left: 175px;
-        top: 80%;
-        width: 100px;
-    }
+        50% {
 
-    50% {
+            left: 375px;
+            top: 0;
+            width: 200px;
+        }
 
-        left: 375px;
-        top: 0;
-        width: 200px;
-    }
+        75% {
 
-    75% {
+            left: 550px;
+            top: 80%;
+            width: 100px;
+        }
 
-        left: 550px;
-        top: 80%;
-    }
+        100% {
 
-    100% {
-
-        left: 750px;
-        top: 0px;
+            left: 750px;
+            top: 0px;
+            width: 100px;
+        }
     }
 }
