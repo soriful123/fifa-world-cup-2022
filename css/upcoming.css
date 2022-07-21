@@ -363,6 +363,31 @@ hr {
         font-size: 22px;
         margin-right: 20px;
     }
+
+    @keyframes football {
+        0% {
+            left: 100px;
+            top: 0px;
+            width: 50px;
+
+        }
+
+
+        50% {
+
+            left: 110px;
+            top: 400px;
+            width: 100px;
+        }
+
+
+        100% {
+
+            left: 200px;
+            top: 0px;
+            width: 100px;
+        }
+    }
 }
 
 
@@ -662,7 +687,7 @@ hr {
         25% {
 
             left: 175px;
-            top: 80%;
+            top: 200px;
             width: 100px;
         }
 
@@ -676,7 +701,7 @@ hr {
         75% {
 
             left: 550px;
-            top: 80%;
+            top: 200px;
             width: 100px;
         }
 
