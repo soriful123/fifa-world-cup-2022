@@ -98,6 +98,12 @@ main {
     height: 242px;
     border-radius: 10px;
     border: 1px solid lightgray;
+    transition: .3s ease-in;
+    cursor: pointer
+}
+
+.match:hover {
+    margin-top: -20px;
 }
 
 .country {

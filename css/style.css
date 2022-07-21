@@ -109,6 +109,12 @@ main {
     border: 1px solid grey;
     border-radius: 10px;
     overflow: hidden;
+    transition: .3s ease-in;
+    cursor: pointer;
+}
+
+.blogs:hover {
+    margin-top: -20px;
 }
 
 .blog-image img {
@@ -563,10 +569,11 @@ hr {
 
     }
 
-    .banner-text{
+    .banner-text {
         margin-bottom: 100px;
     }
-    .banner-text h1{
+
+    .banner-text h1 {
         font-size: 30px;
     }
 
@@ -588,7 +595,7 @@ hr {
         width: 100%;
 
     }
-    
+
 
     .side-menu {
         background-color: white;
