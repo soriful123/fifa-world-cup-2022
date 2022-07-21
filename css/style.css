@@ -552,7 +552,7 @@ hr {
 
     .top-banner {
         width: 90%;
-        height: 65vh;
+        overflow-y: hidden;
 
     }
 
@@ -581,9 +581,7 @@ hr {
         width: 100%;
 
     }
-    .blogs{
-        width: 80%;
-    }
+    
 
     .side-menu {
         background-color: white;

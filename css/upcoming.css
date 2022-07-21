@@ -482,7 +482,7 @@ hr {
 
     .top-banner {
         width: 90%;
-        height: 65vh;
+        overflow-y: hidden;
 
     }
 
