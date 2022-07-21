@@ -541,7 +541,7 @@ hr {
 
 }
 
-/*------- desktop view ------- */
+/*------- latop  view ------- */
 @media only screen and (min-width:893px) and (max-width:1200px) {
     .container {
         width: 100%;
@@ -565,6 +565,9 @@ hr {
 
     .banner-text{
         margin-bottom: 100px;
+    }
+    .banner-text h1{
+        font-size: 30px;
     }
 
 
