@@ -491,6 +491,11 @@ hr {
         grid-template-columns: repeat(3, 1fr);
 
 
+
+    }
+
+    .banner-text {
+        margin-bottom: 50px;
     }
 
     .banner-text h1 {
