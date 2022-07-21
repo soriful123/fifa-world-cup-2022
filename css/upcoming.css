@@ -18,6 +18,12 @@ body {
 
 }
 
+.football {
+    position: absolute;
+    width: 50px;
+    animation: football 3s ease-in 0.1s 3 alternate;
+}
+
 .top-banner {
     display: flex;
     background: #161616;
@@ -619,4 +625,39 @@ hr {
         background-color: #4D4D4D;
     }
 
+}
+
+
+
+@keyframes football {
+    0% {
+        left: 100px;
+        top: 0px;
+    }
+
+    25% {
+
+        left: 175px;
+        top: 80%;
+        width: 100px;
+    }
+
+    50% {
+
+        left: 375px;
+        top: 0;
+        width: 200px;
+    }
+
+    75% {
+
+        left: 550px;
+        top: 80%;
+    }
+
+    100% {
+
+        left: 750px;
+        top: 0px;
+    }
 }
